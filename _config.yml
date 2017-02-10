@@ -16,7 +16,7 @@
 title: PHARMA DOST
 email: contact@justinechacko.in
 description: > # this means to ignore newlines until "baseurl:"
-  Career guidance.
+  pharmadost.
 baseurl: "" 
 url: "http://Pharmacy.justinechacko.in" 
 
@@ -28,6 +28,8 @@ paginate_path: "/page:num/"
 gems:
   - jekyll-feed
   - jekyll-paginate
+
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
