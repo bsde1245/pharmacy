@@ -341,11 +341,11 @@
 
 
 
-* {word-break: break-all!important;}
+
 
 
 .layout1 {
-   padding: 5px;
+   
    margin: 10px;
    background: #caeaf0;
    border-radius: 3px;
@@ -543,11 +543,12 @@ border-bottom: none;
 }
 
 // Page content 
-article {
-  max-width: $content-width;
-  margin: 0 auto;
-  padding: 10px;
-}
+//article {
+  //max-width: $content-width;
+  //margin: 0 auto;
+  //padding: 10px;
+//}
+
 
 
 
