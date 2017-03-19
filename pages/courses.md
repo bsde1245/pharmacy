@@ -4,15 +4,15 @@ layout: page
 
 **PHARMACY COURSES**
 
-D.Pharm
+[D.Pharm](/pages/dpharm)
 
-B.Pharm
+[B.Pharm](/pages/bpharm)
 
-M.Pharm
+[M.Pharm](/pages/mpharm)
 
-M.B.A
+[M.B.A](/pages/mba)
 
-IPR
+[IPR](/pages/ipr)
 
 DRA
 
