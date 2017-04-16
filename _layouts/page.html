@@ -11,5 +11,7 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+  {% if page.comments == null %}
 {% include  fb-comment.html %}
+  {% endif %}
 </article>

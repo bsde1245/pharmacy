@@ -2,6 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact/
+comments: yes
 ---
 
 
