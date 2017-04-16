@@ -5,161 +5,91 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>PHARMA DOST</title>
-  <meta name="description" content="pharmadost.">
+
+  <title>Pharma dost</title>
+  <meta name="description" content="Pharma dost">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/pages/moh.html">
-  <link rel="alternate" type="application/rss+xml" title="PHARMA DOST" href="/feed.xml">
-<script src="http://localhost:4000/assets/jquery.min.js"></script>
-<script src="http://localhost:4000/assets/na.js"></script>
-  <style>
-ul.pagination {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-ul.pagination li {display: inline;}
-ul.pagination li a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-ul.pagination li a.active {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-}
-ul.pagination li a:hover:not(.active) {background-color: #ddd;}
-</style>
-
-
-<script>
- 
-    /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
- 
-    document.addEventListener("DOMContentLoaded",
-        function() {
-            var div, n,
-                v = document.getElementsByClassName("youtube-player");
-            for (n = 0; n < v.length; n++) {
-                div = document.createElement("div");
-                div.setAttribute("data-id", v[n].dataset.id);
-                div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
-                v[n].appendChild(div);
-            }
-        });
- 
-    function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
-    }
- 
-    function labnolIframe() {
-        var iframe = document.createElement("iframe");
-        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "1");
-        this.parentNode.replaceChild(iframe, this);
-    }
- 
-</script>
-
-
+  <link rel="alternate" type="application/rss+xml" title="Pharma dost" href="/feed.xml">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/tether/dist/js/tether.min.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="http://localhost:4000/js/footer.js"></script>
+  
+  
   
 </head>
 
 
   <body>
+ <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/">Phatma dost</a>
 
-    <header class="site-header" role="banner">
-
-  <div class="wrapper">
-<br>
-<div class="site-avatar"><img src="/me.png">
-</div>
-    <a class="site-title" href="/">PHARMA DOST</a>
-   <div class="grid" id="searchBar">
-      <div>
-          <div id="search">
-              <form role="search" method="get" action="/search/">
-                  <input id="searchString" name="searchString"
-                         placeholder="search" type="text">
-                  <input id="searchButton" name="googleSearchName" type="submit" value="search">
-              </form>
-          </div>         
-      </div>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/study-materials.html">Study materials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/courses">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/jobs.html">Jobs</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gulf
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/pages/dha">DHA</a>
+          <a class="dropdown-item" href="/pages/moh">MOH</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Abroad
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/pages/usa.html">USA</a>
+          <a class="dropdown-item" href="/pages/uk.html">UK</a>
+          <a class="dropdown-item" href="/pages/canada.html">Canada</a>
+          <a class="dropdown-item" href="/pages/australia.html">Australia</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact Us</a>
+      </li>
+      <!--
+      <form class="form-inline my-2 my-lg-0" role="search" method="get" action="/search/">
+		<input class="form-control mr-sm-2" id="searchString" name="searchString" placeholder="തിരയുക" type="text">
+        <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" name="googleSearchName" type="submit">Search</button>
+      </form>
+      -->
+      <form class="form-inline my-2 my-lg-0" role="search" method="get" action="/search2/">
+		<input class="form-control mr-sm-2" id="search-box" name="query" placeholder="തിരയുക" type="text">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </ul>
+    
   </div>
-<br >
-<nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li>
-          <a href="http://localhost:4000">Home</a>
-        </li>
-        <li>
-          <a href="http://localhost:4000/study-materials.html">Study Materials</a>
-        </li>
-        <li>
-          <a href="#!">Gulf</a>
-           <ul class="nav-dropdown">
-            <li>
-              <a href="http://localhost:4000/pages/dha.html">DHA</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/moh.html">MOH</a>
-            </li>
+</nav>
+    <br><br><br>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-8" id="mainBlock">
+		<div class="card card-block">  
 
-          </ul>
-        </li>
-        
-        <li>
-          <a href="http://localhost:4000/pages/courses">Courses</a>
-        </li>
-        
-        <li>
-          <a href="#!">Abroad</a>
-          <ul class="nav-dropdown">
-            <li>
-              <a href="http://localhost:4000/pages/usa.html">USA</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/uk.html">UK</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/canada.html">Canada</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/australia.html">Australia</a>
-            </li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="http://localhost:4000/jobs.html">Jobs</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-
-
-
-
-
-
-
-<div class="columnsContainer">
-
-	  	<div class="leftColumn">
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
@@ -167,76 +97,77 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
   <header class="post-header">
     <h1 class="post-title"></h1>
   </header>
-<br>
+
   <div class="post-content">
-    PROCEDURE TO APPLY FOR MOH EXAM:<br >
+    <p>PROCEDURE TO APPLY FOR MOH EXAM:<br /></p>
 
-A Pharmacist who is willing to get license for working as Pharmacist or Assistant Pharmacist in Emirates would have to follow the following steps.<br >
+<p>A Pharmacist who is willing to get license for working as Pharmacist or Assistant Pharmacist in Emirates would have to follow the following steps.<br /></p>
 
-Requirement for Pharmacist License<br >
+<p>Requirement for Pharmacist License<br /></p>
 <ul>
 <li>Must hold a pharmacy certificate from a recognized high institute, college or university.</li>
 <li>Practiced pharmaceutical profession for a period not less than two years (for foreigners)</li> 
-<li>Fluent Arabic and foreign language.</li></ul> 
-Requirement for Assistant Pharmacy License<br >
-<li>Holder of a recognized assistant pharmacist certificate</li> 
-<li>Practiced the profession for at least two years in one of the pharmaceutical institution under the supervision of a licensed pharmacist.</li> 
-<li>Fluent in Arabic and one of the foreign languages.</li></ul>
-Pharmacist Exam Details<br >
-Exam taken by the UAE Health Ministry comprise of 3 steps. You have to appear and clear these 3 exams to be eligible for a Pharmacist License. These exams are <br >
-1.Arabic (exemption for UAE nationals)<br >
-2.Scientific Exam<br >
-3.Law Exam<br >
-Pharmacist Examination Schedule<br >
-Exams are taken round the year for all of these exams. You can check Pharmacist Exam Schedule on <a href="http://www.moh.gov.ae/en/Exams/Pages/ExamScheduleSearch.aspx">moh</a> and visits to Dubai.<br >
+<li>Fluent Arabic and foreign language.</li></ul>
+<p>Requirement for Assistant Pharmacy License<br /></p>
+<li>Holder of a recognized assistant pharmacist certificate</li>
+<li>Practiced the profession for at least two years in one of the pharmaceutical institution under the supervision of a licensed pharmacist.</li>
+<li>Fluent in Arabic and one of the foreign languages.</li>
+<p>&lt;/ul&gt;
+Pharmacist Exam Details<br />
+Exam taken by the UAE Health Ministry comprise of 3 steps. You have to appear and clear these 3 exams to be eligible for a Pharmacist License. These exams are <br />
+1.Arabic (exemption for UAE nationals)<br />
+2.Scientific Exam<br />
+3.Law Exam<br />
+Pharmacist Examination Schedule<br />
+Exams are taken round the year for all of these exams. You can check Pharmacist Exam Schedule on <a href="http://www.moh.gov.ae/en/Exams/Pages/ExamScheduleSearch.aspx">moh</a> and visits to Dubai.<br /></p>
 
-How to start application procedure for MOH UAE Pharmacy License<br >
-Here is a step by step procedure which will help you out starting your application procedure with UAE health ministry.<br >
-1.Make an account on official MoH UAE Website. <a href="http://www.moh.gov.ae">moh.gov.ae</a><br >
-2.Upload all documents.<br >
-3.Submit the exam fees.<br >
-4.After completely checking your application for missing information, submit the application.<br >
-5.Wait for an email from the Data Flow Company for PSV Fees intimation. Don't forget to check Data Flow page from our website for DataFlow FAQ. (link is provided below)<br >
-6.Pay Data Flow fees on their given link, which is 700 AED<br >
-7.Ministry will now send an email for confirmation of your seat in any of the upcoming exam.<br >
-8.Once you get the confirmation email or Hall Ticket. Get a print of all the emails, Hall Ticket, replies from Data Flow, Ministry, Fees receipts, Fees submission confirmations etc.<br >
-9.Appear one hour before the test at Al-Owais Hall MoH, UAE.<br >
+<p>How to start application procedure for MOH UAE Pharmacy License<br />
+Here is a step by step procedure which will help you out starting your application procedure with UAE health ministry.<br />
+1.Make an account on official MoH UAE Website. <a href="http://www.moh.gov.ae">moh.gov.ae</a><br />
+2.Upload all documents.<br />
+3.Submit the exam fees.<br />
+4.After completely checking your application for missing information, submit the application.<br />
+5.Wait for an email from the Data Flow Company for PSV Fees intimation. Don’t forget to check Data Flow page from our website for DataFlow FAQ. (link is provided below)<br />
+6.Pay Data Flow fees on their given link, which is 700 AED<br />
+7.Ministry will now send an email for confirmation of your seat in any of the upcoming exam.<br />
+8.Once you get the confirmation email or Hall Ticket. Get a print of all the emails, Hall Ticket, replies from Data Flow, Ministry, Fees receipts, Fees submission confirmations etc.<br />
+9.Appear one hour before the test at Al-Owais Hall MoH, UAE.<br />
 10.Produce all the documents mentioned in the confirmation email to the examiners available over there to let you sit in the exam.
-<br >
-Documents Needed for Pharmacist Registration<br >
-1.Detailed C.V or bio data in English or Arabic <br >
-2.Copy of Bachelor degree certificate (minimum 4 years) including mark sheet.<br > 
-3.Certificates of degree should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs.<br > 
-4.Copy of testimonial and work experience letters, which should state date of starting of employment after graduation, date of leaving and post held.;<br > 
-5.Work experience should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs. <br >
-6.Applicant should fulfill 2 years of experience duration after date of graduation. <br >
-7.Copy of valid registration for the degree or license to practice pharmacy from the respective syndicate of country of graduation or residency.<br > 
-8.Copy of passport including visa page <br >
-9.3 passport size photographs <br >
-10.Receipt for Dh 100 via e- dirham from the cashier's office (3rd floor MOH building).<br >
-<br >
-Documents Needed for Pharmacist Assistant Registration<br >
+<br />
+Documents Needed for Pharmacist Registration<br />
+1.Detailed C.V or bio data in English or Arabic <br />
+2.Copy of Bachelor degree certificate (minimum 4 years) including mark sheet.<br /> 
+3.Certificates of degree should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs.<br /> 
+4.Copy of testimonial and work experience letters, which should state date of starting of employment after graduation, date of leaving and post held.;<br /> 
+5.Work experience should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs. <br />
+6.Applicant should fulfill 2 years of experience duration after date of graduation. <br />
+7.Copy of valid registration for the degree or license to practice pharmacy from the respective syndicate of country of graduation or residency.<br /> 
+8.Copy of passport including visa page <br />
+9.3 passport size photographs <br />
+10.Receipt for Dh 100 via e- dirham from the cashier’s office (3rd floor MOH building).<br />
+<br />
+Documents Needed for Pharmacist Assistant Registration<br /></p>
 
-1.Detailed C.V or bio data in English or Arabic <br >
-2.Copy or list of candidates passed Arabic exam for non-Arabic applicants only. <br >
-3.Copy of Diploma degree certificate ( minimum 2 years ) including mark sheet. <br >
-4.Certificates of degree should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs.<br >
-5.Copy of testimonial and work experience letters, which should state date of starting of employment after graduation, date of leaving and post held.;<br > 
-6.Work experience should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs and applicant should fulfill 2 years of experience duration after date of graduation. <br >
-7. Copy of Secondary / High school Certificate <br >
-8. Copy of Passport including visa page <br >
-9. 3 passport size photographs <br >
-10. Receipt for Dh 50 via e-dirham from the cashier's office (3rd floor MOH building). <br >
-Make sure are done with all these requirements so that you can start your career in UAE swiftly, as you will have everything ready with you before employer will ask you to produce anything. <br >
+<p>1.Detailed C.V or bio data in English or Arabic <br />
+2.Copy or list of candidates passed Arabic exam for non-Arabic applicants only. <br />
+3.Copy of Diploma degree certificate ( minimum 2 years ) including mark sheet. <br />
+4.Certificates of degree should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs.<br />
+5.Copy of testimonial and work experience letters, which should state date of starting of employment after graduation, date of leaving and post held.;<br /> 
+6.Work experience should be attested from the competent authority of country of graduation and UAE Ministry of foreign affairs and applicant should fulfill 2 years of experience duration after date of graduation. <br /></p>
+<ol>
+  <li>Copy of Secondary / High school Certificate <br /></li>
+  <li>Copy of Passport including visa page <br /></li>
+  <li>3 passport size photographs <br /></li>
+  <li>Receipt for Dh 50 via e-dirham from the cashier’s office (3rd floor MOH building). <br />
+Make sure are done with all these requirements so that you can start your career in UAE swiftly, as you will have everything ready with you before employer will ask you to produce anything. <br /></li>
+</ol>
 
-DataFlow Help Page -  We have tried to answer all the questions about Data Flow verification services by collection FAQ and common questions of worried applicants.<br >
+<p>DataFlow Help Page -  We have tried to answer all the questions about Data Flow verification services by collection FAQ and common questions of worried applicants.<br /></p>
 
-We hope you will follow these instructions strictly. You can also ask any questions about any step if any confusion is there. We would surely like to help you all.<br >
+<p>We hope you will follow these instructions strictly. You can also ask any questions about any step if any confusion is there. We would surely like to help you all.<br /></p>
 
 
-
-  
-</div>
+  </div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -254,20 +185,16 @@ We hope you will follow these instructions strictly. You can also ask any questi
 
       </div>
     </main>
-</div>
+</div></div>
 
-	  	<div class="rightColumn">
-
-
-
-
-</div>
-</div>
+<div class="col-md-4" id="subBlock">
+<div class="card card-block">
+</div></div></div></div>
     <footer class="site-footer">
 
   <div class="wrapper">
 
-    
+    <h2 class="footer-heading">Pharma dost</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -288,7 +215,7 @@ We hope you will follow these instructions strictly. You can also ask any questi
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>pharmadost.
+        <p>Pharma dost 
 </p>
       </div>
     </div>
@@ -296,6 +223,7 @@ We hope you will follow these instructions strictly. You can also ask any questi
   </div>
 
 </footer>
+
 
 
   </body>

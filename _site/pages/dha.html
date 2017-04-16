@@ -5,161 +5,91 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>PHARMA DOST</title>
-  <meta name="description" content="pharmadost.">
+
+  <title>Pharma dost</title>
+  <meta name="description" content="Pharma dost">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/pages/dha.html">
-  <link rel="alternate" type="application/rss+xml" title="PHARMA DOST" href="/feed.xml">
-<script src="http://localhost:4000/assets/jquery.min.js"></script>
-<script src="http://localhost:4000/assets/na.js"></script>
-  <style>
-ul.pagination {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-ul.pagination li {display: inline;}
-ul.pagination li a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-ul.pagination li a.active {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-}
-ul.pagination li a:hover:not(.active) {background-color: #ddd;}
-</style>
-
-
-<script>
- 
-    /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
- 
-    document.addEventListener("DOMContentLoaded",
-        function() {
-            var div, n,
-                v = document.getElementsByClassName("youtube-player");
-            for (n = 0; n < v.length; n++) {
-                div = document.createElement("div");
-                div.setAttribute("data-id", v[n].dataset.id);
-                div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
-                v[n].appendChild(div);
-            }
-        });
- 
-    function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
-    }
- 
-    function labnolIframe() {
-        var iframe = document.createElement("iframe");
-        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "1");
-        this.parentNode.replaceChild(iframe, this);
-    }
- 
-</script>
-
-
+  <link rel="alternate" type="application/rss+xml" title="Pharma dost" href="/feed.xml">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/tether/dist/js/tether.min.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="http://localhost:4000/js/footer.js"></script>
+  
+  
   
 </head>
 
 
   <body>
+ <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/">Phatma dost</a>
 
-    <header class="site-header" role="banner">
-
-  <div class="wrapper">
-<br>
-<div class="site-avatar"><img src="/me.png">
-</div>
-    <a class="site-title" href="/">PHARMA DOST</a>
-   <div class="grid" id="searchBar">
-      <div>
-          <div id="search">
-              <form role="search" method="get" action="/search/">
-                  <input id="searchString" name="searchString"
-                         placeholder="search" type="text">
-                  <input id="searchButton" name="googleSearchName" type="submit" value="search">
-              </form>
-          </div>         
-      </div>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/study-materials.html">Study materials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/courses">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/jobs.html">Jobs</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gulf
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/pages/dha">DHA</a>
+          <a class="dropdown-item" href="/pages/moh">MOH</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Abroad
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/pages/usa.html">USA</a>
+          <a class="dropdown-item" href="/pages/uk.html">UK</a>
+          <a class="dropdown-item" href="/pages/canada.html">Canada</a>
+          <a class="dropdown-item" href="/pages/australia.html">Australia</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact Us</a>
+      </li>
+      <!--
+      <form class="form-inline my-2 my-lg-0" role="search" method="get" action="/search/">
+		<input class="form-control mr-sm-2" id="searchString" name="searchString" placeholder="തിരയുക" type="text">
+        <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" name="googleSearchName" type="submit">Search</button>
+      </form>
+      -->
+      <form class="form-inline my-2 my-lg-0" role="search" method="get" action="/search2/">
+		<input class="form-control mr-sm-2" id="search-box" name="query" placeholder="തിരയുക" type="text">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </ul>
+    
   </div>
-<br >
-<nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li>
-          <a href="http://localhost:4000">Home</a>
-        </li>
-        <li>
-          <a href="http://localhost:4000/study-materials.html">Study Materials</a>
-        </li>
-        <li>
-          <a href="#!">Gulf</a>
-           <ul class="nav-dropdown">
-            <li>
-              <a href="http://localhost:4000/pages/dha.html">DHA</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/moh.html">MOH</a>
-            </li>
+</nav>
+    <br><br><br>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-8" id="mainBlock">
+		<div class="card card-block">  
 
-          </ul>
-        </li>
-        
-        <li>
-          <a href="http://localhost:4000/pages/courses">Courses</a>
-        </li>
-        
-        <li>
-          <a href="#!">Abroad</a>
-          <ul class="nav-dropdown">
-            <li>
-              <a href="http://localhost:4000/pages/usa.html">USA</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/uk.html">UK</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/canada.html">Canada</a>
-            </li>
-            <li>
-              <a href="http://localhost:4000/pages/australia.html">Australia</a>
-            </li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="http://localhost:4000/jobs.html">Jobs</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-
-
-
-
-
-
-
-<div class="columnsContainer">
-
-	  	<div class="leftColumn">
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
@@ -167,26 +97,53 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
   <header class="post-header">
     <h1 class="post-title"></h1>
   </header>
-<br>
-  <div class="post-content">
-    PROCEDURE TO APPLY FOR DHA EXAM:<br >
-1. First you visit DHA website <a href="http://www.dha.gov.ae">http://www.dha.gov.ae</a><br >
-Click on the link Licensing services. Register yourself as a New User<br >
-2. Create your login ID by selecting your username and password. Enter your name as in passport.<br >
-3. Then go to your Inbox in Individual Home after log-in. At first they ask to Fill online Application form (allied health in technician category). Attach all the required documents ( 1-Passport, 2-Photograph, 3-Experience certificate ,4-Pharm-D / B pharm, degree,+ Transcript, Valid License from pharmacy council or renewal of license to Practice in Home Country) in scanned form. After submitting online application wait DHA message to get your application approved.<br >
-NOTE: The attestation of documents is not necessary DHA will do all the process itself if some buddy do it .. So well & good.<br >
-4. Once your application will be approved, check your DHA site inbox, DHA will ask you to submit 210 AED online .<br >
-5. After submission of Application fee DHA will send message within 2-3 days in your inbox to purchase DHA book from DHA office in Business Village, Block-C, Clock Tower, deira, Dubai (near dera city center BUS STOP if u come from sharjah in bus or if u come in metro come to dera ciy center METRO STATION ). The book cost is 220 AED. DHA will give receipt of Book Purchase. Upload that receipt in scanned form on DHA website inbox in your application in last page in additional documents section then submit it.<br >
-6. Then after 2-3 days DHA will send message in your inbox to submit PSV (Primary source verification) Fee 724 AED online.<br >
-7. After submitting PSV Fee DHA will take 30-60 days for verification. Once verification completed, DHA will send u Data Flow report of PSV. In the meanwhile u can book your exam date before the verification report.<br >
-8. DHA conduct exam on every Sunday in Sheikh Rashid Hospital /behind trauma center, Dubai.
-DHA will confirm your exam date after receiving DHA Exam Fee Online. If you want to give exam on Normal bais then fee is 260 AED And If you want to give exam on urgent basis then fee will be 2010 AED.<br >
-9. DHA exam is computer based test. Passing score is 60%. You will get you score at the same time you submit your attempted paper online.
-(All the process taking 25-30 DAYS if you do all the process in due time)<br >
-10. After Passing exam DHA will issue you Eligibility Letter for searching employment within few days (10-15days). Then after getting Job on the basis of that eligibility Letter, last step will be to upload your Labour Card on DHA website and lastly the DHA License will e issued in your name @ the cost of 3000 AED that will be paid by your employer<br ><br ><br >
 
-  
-</div>
+  <div class="post-content">
+    <p>PROCEDURE TO APPLY FOR DHA EXAM:</p>
+
+<p>first you visit the DHA website <a href="http://www.dha.gov.ae">http://www.dha.gov.ae</a>. click on the link and register</p>
+
+<p>create your log in id by selecting username and password</p>
+
+<p>Then you go to your inbox individual home after log in</p>
+
+<p>fill online application form</p>
+
+<p>Attach the required documents.</p>
+
+<p>1)passport copy</p>
+
+<p>2)passport size photo</p>
+
+<p>3)experience certificate</p>
+
+<p>4)B Pharm degree certificate + transcript</p>
+
+<p>5)valid licence from pharmacy council in home country</p>
+
+<p>6)good standing certificate ( all scanned form )</p>
+
+<p>After submitting online application wait DHA message to get your application approved</p>
+
+<p>once your application will be approved check your DHA site they will ask to submit payment online. (210 AED)</p>
+
+<p>after submission DHA will send message within 2 to 3 days for book purchase.</p>
+
+<p>then after 2 to 3 days they will send message to submit primary source verification fee online ( its around 750 AED).</p>
+
+<p>After submitting this will take 30 – 60 days for verification.After verification completed DHA will send you dataflow report.In the meanwhile you can book your examdate before the verification report</p>
+
+<p>DHA will confirm your exam date after receiving the payment.</p>
+
+<p>exam on normal basis around 300 AED .IN CASE OF URGENT BASIS ITS MAY BE 2000 AED.</p>
+
+<p>The test is computer based and the passing score is 60 % . and you get the score at the same time after exam..</p>
+
+<p>after passing they will issue eligibility letter.</p>
+
+<p>then you can search the job and the DHA licence will be issued by the employer at the cost 3000 AED.</p>
+
+  </div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -204,20 +161,16 @@ DHA will confirm your exam date after receiving DHA Exam Fee Online. If you want
 
       </div>
     </main>
-</div>
+</div></div>
 
-	  	<div class="rightColumn">
-
-
-
-
-</div>
-</div>
+<div class="col-md-4" id="subBlock">
+<div class="card card-block">
+</div></div></div></div>
     <footer class="site-footer">
 
   <div class="wrapper">
 
-    
+    <h2 class="footer-heading">Pharma dost</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -238,7 +191,7 @@ DHA will confirm your exam date after receiving DHA Exam Fee Online. If you want
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>pharmadost.
+        <p>Pharma dost 
 </p>
       </div>
     </div>
@@ -246,6 +199,7 @@ DHA will confirm your exam date after receiving DHA Exam Fee Online. If you want
   </div>
 
 </footer>
+
 
 
   </body>
