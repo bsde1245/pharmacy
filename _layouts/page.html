@@ -1,17 +1,16 @@
 ---
-layout: default
+layout: default_bootstrap
 ---
-
 <article class="post">
-
+<div class="panel panel-default">
+  <div class="panel-heading text-center">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h4>{{ page.title | escape }}</h4>
   </header>
-
-  <div class="post-content">
-    {{ content }}
   </div>
-  {% if page.comments == null %}
-{% include  fb-comment.html %}
-  {% endif %}
+  <div class="post-content">
+  <div class="panel-body">
+    {{ content }}
+  </div></div></div>
+
 </article>

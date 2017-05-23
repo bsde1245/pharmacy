@@ -16,10 +16,9 @@
 title: Pharma dost
 email: contact@justinechacko.in
 description: > # this means to ignore newlines until "baseurl:"
-  Pharma dost 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://Pharmacy.justinechacko.in" # the base hostname & protocol for your site, e.g. http://example.com
-
+  Pharma dost
+baseurl: "" 
+url: "http://pharmacy.justinechacko.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -27,17 +26,14 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-sitemap
-  
+  - jekyll-paginate
 
 exclude:
   - Gemfile
   - Gemfile.lock
-  
 sass:
- load_paths:
-  - _sass
-  - bower_components
-  
-excerpt_separator: "<!--more-->"
-  
-
+  load_paths:
+    - _sass                             # original sass
+    - bower_components/bootstrap-sass/assets/stylesheets  # bootstrap
+paginate: 10
+paginate_path: "page:num"

@@ -2,7 +2,6 @@
 layout: page
 title: About Us
 permalink: /about/
-comments: yes
 ---
 
 <p>Justine Chacko</p>

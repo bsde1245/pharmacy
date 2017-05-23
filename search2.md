@@ -1,13 +1,13 @@
 ---
 layout: page
-title: തിരയുക
+title: Search
 permalink: /search2/
-comments: yes
 ---
-<form class="form-inline my-2 my-lg-0" role="search" method="get" action="{{site.baseurl}}/search2/">
-		<input class="form-control mr-sm-2" id="search-box" name="query" placeholder="തിരയുക" type="text">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+<form action="/search2/" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
 
 <ul id="search-results"></ul>
 
