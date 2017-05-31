@@ -1,5 +1,7 @@
 ---
 layout: page
+title: M.Pharm
+permalink: /pages/mpharm
 ---
 
 **Pharmacy Post Graduation studies, M.Pharm**

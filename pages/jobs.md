@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Jobs
+permalink: /pages/jobs
 ---
 
 <p>Working as Associate-Quality Operations in Novartis</p>

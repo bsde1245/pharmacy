@@ -1,5 +1,7 @@
 ---
 layout: page
+title: IPR
+permalink: /pages/ipr
 ---
 
 **Diploma In IPR (Intellectual Property Right)**

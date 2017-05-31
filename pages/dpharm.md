@@ -1,5 +1,7 @@
 ---
 layout: page
+title: D.Pharm
+permalink: /pages/dpharm
 ---
 
 **1.Diploma in Pharmacy, D.Pharm.**

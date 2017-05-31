@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Courses
+permalink: /pages/courses
 ---
 
 **PHARMACY COURSES**

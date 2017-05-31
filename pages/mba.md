@@ -1,5 +1,7 @@
 ---
 layout: page
+title: MBA
+permalink: /pages/mba
 ---
 **Master of Business Administration (MBA)**
 

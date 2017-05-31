@@ -1,5 +1,7 @@
 ---
 layout: page
+title: UK
+permalink: /pages/uk/
 ---
 <strong>How to become a registered Pharmacist in United Kingdom (U.K)</strong>
 

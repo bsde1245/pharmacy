@@ -1,5 +1,7 @@
 ---
 layout: page
+title: MOH
+permalink: /pages/moh
 ---
 
 PROCEDURE TO APPLY FOR MOH EXAM:<br >

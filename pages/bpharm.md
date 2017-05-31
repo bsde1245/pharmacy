@@ -1,5 +1,7 @@
 ---
 layout: page
+title: B.Pharm
+permalink: /pages/b.pharm
 ---
 
 **Pharmacy Graduation studies, B.Pharm**

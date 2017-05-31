@@ -1,5 +1,7 @@
 ---
 layout: page
+title: SLE
+permalink: /sle/
 ---
 
 How to Apply for SLE Exam for Pharmacist

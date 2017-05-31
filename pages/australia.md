@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Australia
+permalink: /pages/australia/
 ---
 <strong>How to Become Registered Pharmacist in Australia ?</strong>
 <br >

@@ -1,5 +1,7 @@
 ---
 layout: page
+title: USA
+permalink: /pages/usa/
 ---
 <h3>Pharmacist Jobs and Career in United States</h3>
 <strong>How to become a registered Pharmacist in USA?</strong>

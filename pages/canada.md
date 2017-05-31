@@ -1,98 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Pharma dost</title>
-  <meta name="description" content="Pharma dost">
-
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/pages/canada.html">
-  <link rel="alternate" type="application/rss+xml" title="Pharma dost" href="/feed.xml">
-  
-  
-</head>
-
-
-  <body>
-
-    <header class="site-header">
-  <div class="container">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">Pharma dost</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <form class="navbar-form navbar-left" role="search" method="get" action="/search2/">
-            <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" id="search-box" name="query">
-            <div class="input-group-btn">
-            <button class="btn btn-default" type="submit">
-            <i class="glyphicon glyphicon-search"></i>
-            </button>
-            </div>
-            </div>
-            </form>
-         <li><a class="page-link" href="/study-materials.html">Study materials</a>
-      </li>
-      <li>
-        <a class="page-link" href="/pages/courses">Courses</a>
-      </li>
-      <li>
-        <a class="page-link" href="/jobs.html">Jobs</a>
-      </li>
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gulf <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/pages/dha">DHA</a></li>
-            <li><a href="/pages/moh">MOH</a></li>
-          </ul>
-        </li>
-
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Abroad <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/pages/usa.html">USA</a></li>
-            <li><a href="/pages/uk.html">UK</a></li>
-            <li><a href="/pages/canada.html">Canada</a></li>
-            
-            <li><a href="/pages/australia.html">Australia</a></li>
-          </ul>
-        </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div><!--/.container-fluid -->
-    </nav>
-  </div> <!-- /container -->
-</header>
-
-<br><br><br>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-9" id="mainBlock">
-   <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
-<div class="panel panel-default">
-  <div class="panel-heading text-center">
-  <header class="post-header">
-    <h4></h4>
-  </header>
-  </div>
-  <div class="post-content">
-  <div class="panel-body text-justify">
-    <h3>PHARMACISTS IN CANADA</h3>
+---
+layout: page
+title: Canada
+permalink: /pages/canada/
+---
+<h3>PHARMACISTS IN CANADA</h3>
 
 <strong>How to Become Registered Pharmacist In Canada ?</strong>
 <br >
@@ -123,7 +34,7 @@ STEP 4: THE PHARMACIST QUALIFYING EXAMINATION, PART I (MCQ) and PART II (OSCE) �
                       In addition to the PEBC Certificate of Qualification, each province has additional licensing requirements. These may include practical experience, English or French language skills, and jurisprudence examinations. You must contact the regulatory authority of the province in which you choose to practice to receive full information about their requirements. The contact information for the provincial and territorial regulatory authorities is available on the PEBC website.<br >
 Click here for the addresses of the provincial and territorial regulatory authorities<br >
 E.g: For Alberta Province Following Process Needed.<br >
-<img src="http://localhost:4000/images/1.png">
+<img src="{{ site.url }}/images/1.png">
 <br ><br ><br >
 STEP 1: Enroll in the Gateway: Enrolling in Pharmacists’ Gateway Canada allows you to begin your application for a licence. You will create an account and you will be given a candidate number. You will provide information such as your name, address and date of birth. With this account, you will be able to see any of your documents that are stored in the database. You can also track your progress throughout the licensing process. Before you enrol, you should understand all of the steps and requirements.<br >
 Pharmacy Regulatory Authorities (PRAs) across Canada support that enrollment in the Gateway be the first step in the licensure process. If you wish to practice in Québec, the enrollment is optional, but you may want to consider its advantages and try the self-assessment tools. It is strongly recommended that you use the self-assessment tools before enrolling in the Gateway. These tools will help you to understand the Canadian licensing process and the realities of the work environment. They will also help you to identify areas of pharmacy where you may need more education or experience. These tools will assist you in determining your readiness to pursue any steps in the process.<br >
@@ -202,11 +113,11 @@ Biostatistics<br >
 
 Payment : E.g: For Alberta Province<br >
 
-<img src="http://localhost:4000/images/2.png"><br ><br ><br >
+<img src="{{ site.url }}/images/2.png"><br ><br ><br >
 
 Salary : E.g : In Alberta province<br ><br ><br >
 
-<img src="http://localhost:4000/images/3.png"><br ><br ><br >
+<img src="{{ site.url }}/images/3.png"><br ><br ><br >
 
 Other Requirements:<br > 
 English Language proficiency exam<br >
@@ -215,128 +126,3 @@ Jurisprudence exam<br >
  Another exam you need to pass is the jurisprudence exam for the Canadian province in which you wish to work. This tests your knowledge of Canadian pharmacy law and ethics, which varies substantially between provinces. It is generally offered several times a year in most provinces.<br >
 Studentship and internship You need to undertake (usually) a studentship and an internship in your chosen province. Most provinces require you to undertake a studentship, which is a taught course, often six months in duration, at the faculty of pharmacy for the province. An internship is compulsory for all provinces, and may vary in length between three and 12 months
 
-
-  </div></div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1775164036069398";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-<div class="fb-comments" data-href="http://localhost:4000/pages/canada.html" data-numposts="20" data-width="100%" data-mobile="Auto-detected" data-order-by="reverse_time"></div>
-
-</div>
-
-</article>
-
-    </div>
-    </main>
-</div>
-
-<div class="col-md-3" id="subBlock">
-
-
-<!--
-
-<div class="panel panel-default text-center">
-  <div class="panel-heading">
-   <h4>Categories</h4>
-  </div>
-<div class="panel-body">
-<div>
-<ul style="list-style: none;">
-    
-    
-<li>
-     <span class="site-tag">
-<h4>
-        <a href="/pages/general/#general">
-                general (1)
-        </a>
-</h4>
-    </span>
-</li>
-    
-</ul>
-    </div>
- </div> </div>
-
-<div class="panel panel-default text-center">
-  <div class="panel-heading">
-   <h4>Stores</h4>
-  </div>
-
-<div class="panel-body">
-
-<div>
-<ul style="list-style: none;">
-    
-    
-</ul>
-    </div></div></div>
-
-<div class="panel panel-default text-center">
-  <div class="panel-heading">
-   <h4>Youtube Playlist</h4>
-  </div>
-
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" width="100%" height="600" src="https://www.youtube.com/embed/videoseries?list=PL3a__wZfP3_ACE1Q6lV3rQmteTD7HjQvZ" frameborder="0" allowfullscreen></iframe>
-</div>
-</div>
--->
-</div>
-
-</div></div>
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            
-              Pharma dost
-            
-            </li>
-            
-            <li><a href="mailto:contact@justinechacko.in">contact@justinechacko.in</a></li>
-            
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          
-
-          
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>Pharma dost
-</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
-
-<script src="/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-<script src="/js/footer.js"></script>
-
-
-  </body>
-
-</html>

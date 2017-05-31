@@ -1,5 +1,7 @@
 ---
 layout: page
+title: DHA
+permalink: /pages/dha
 ---
 
 PROCEDURE TO APPLY FOR DHA EXAM:
