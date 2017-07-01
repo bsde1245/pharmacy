@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Study Materials
-permalink: /study-materials
+permalink: /pages/study-materials/
 ---
 
 

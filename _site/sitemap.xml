@@ -11,13 +11,13 @@
 <loc>http://localhost:4000/pages/australia/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/pages/bpharm</loc>
+</url>
+<url>
 <loc>http://localhost:4000/pages/canada/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/contact/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/courses.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pages/courses</loc>
@@ -27,9 +27,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/pages/dpharm</loc>
-</url>
-<url>
-<loc>http://localhost:4000/gulf.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -59,7 +56,7 @@
 <loc>http://localhost:4000/sle/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/study-materials</loc>
+<loc>http://localhost:4000/pages/study-materials/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pages/uk/</loc>
