@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "The poisons act was passed in"
+date:   2017-07-25 08:20:46 +0530
+categories: question
+---
+The poisons act was passed in
+
+(a) 1929
+
+(b) 1990
+
+(c) 1950
+
+(d) 1919
