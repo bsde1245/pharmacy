@@ -100,7 +100,7 @@ Within 5 to 6 working days or more after submitting 220 Darham, DHA (Dubai Healt
 
 Once you pay PSV fee wait for 24 hours After submitting PSV fee they (Dubai Health Authority) will send you an Eligibility ID for Prometrics but it will be active and work after 5 working days.
 
-After 4 or 5 working days DHA will send u message to your account to book exam date.They will send u promatric site address go there and select your exam date and exam center, u must have eligibility ID for selection of exam date and center ( There are only 2 exam center in UAE one is in Dubai knowllege village AMIDEST BUILDING and the second center is in AbudDahbi).
+After 4 or 5 working days DHA will send u message to your account to book exam date.They will send u promatric site address go there and select your exam date and exam center, u must have eligibility ID for selection of exam date and center. You can write exam from your own country. Check the video below to see how to select exam cetntre. ( There are only 2 exam center in UAE one is in Dubai knowllege village AMIDEST BUILDING and the second center is in AbudDahbi).
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//www.youtube.com/embed/G9A1h8Ky9To?rel=0" allowfullscreen></iframe>
 </div>
