@@ -110,7 +110,7 @@ After paying Exam fee wait for 24 to 48 hrs they will send you message for initi
 
 You can check your check your report status at  the following link
 
-[http://www.dataflowstatus.com/applicationstatus](http://www.dataflowstatus.com/applicationstatus)
+[dataflowstatus](http://www.dataflowstatus.com/applicationstatus)
 
 They will ask you for Reff.no which given to u by DHA in your sharyan account and passport no.
 You need to bring following documents at Test Day.
