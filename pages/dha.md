@@ -109,7 +109,9 @@ when u select exam date and center they will ask you to submit ONLINE Exam fee t
 After paying Exam fee wait for 24 to 48 hrs they will send you message for initiation of PSV process and also give u expected date for the report of PSV. Max. 30 to 40days it will take. And also one CONFIRMATION EMAIL they will send you. You must print that confirmation email.It contain your exam date test center and everything in detail.
 
 You can check your check your report status at  the following link
-http://www.dataflowstatus.com/applica...
+
+[http://www.dataflowstatus.com/applicationstatus](http://www.dataflowstatus.com/applicationstatus)
+
 They will ask you for Reff.no which given to u by DHA in your sharyan account and passport no.
 You need to bring following documents at Test Day.
 
