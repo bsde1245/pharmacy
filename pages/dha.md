@@ -131,7 +131,7 @@ C. Original Passport
 
 <iframe src="https://drive.google.com/file/d/0B5FOj4rgVhf1aG9MSnZxUk1TTEE/preview" width="100%" height="480"></iframe>
 
-Very important noe: **Old videos for reference Not all informations are correct**
+Very important noe: **Below are Old videos for reference Not all informations are correct**
 
 
 <iframe src="https://drive.google.com/file/d/0B5FOj4rgVhf1TjF5dnhCeWE0VVU/preview" width="100%" height="480"></iframe>
