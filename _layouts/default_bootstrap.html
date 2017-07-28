@@ -59,7 +59,7 @@
 
      <span class="site-tag">
 
-        <a href="pages/{{ tag[0] }}/#{{ tag | first | slugify }}">
+        <a href="/tagview/#{{ tag | first | slugify }}">
                 {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
         </a>
 

@@ -2,7 +2,7 @@
 layout: default_bootstrap
 ---
 <article class="post">
-<div class="panel panel-default">
+<div class="panel panel-default text-center">
   <div class="panel-heading text-center">
   <header class="post-header">
     <h4>{{ page.title | escape }}</h4>
@@ -12,7 +12,7 @@ layout: default_bootstrap
   <div class="panel-body">
     {{ content }}
 {% include fb-share.html %}
-<a href="whatsapp://send?text={{ site.url}}{{ page.url }}" data-action="share/whatsapp/share"><img src="/images/whatsapp.jpg" alt="whatsapp"></a>
+<a href="whatsapp://send?text={{ site.url}}{{ page.url }}" data-action="share/whatsapp/share"><img src="/images/whatsapp.png" alt="whatsapp"></a>
   </div></div>
 {% include  fb-comment.html %}
 </div>
