@@ -99,7 +99,8 @@ Once you upload documents it need some time to approve the documents. Check your
 
 8) Once you pay PSV fee wait for 24 hours After submitting PSV fee they (Dubai Health Authority) will send you an Eligibility ID for Prometrics but it will be active and work after 5 working days.
 
-9) After 4 or 5 working days DHA will send you message to your account to book exam date.Then go to [promatric site address](https://www.prometric.com) go there and select your exam date and exam center, you must have eligibility ID for selection of exam date and center. You can write exam from your own country. Check the video below to see how to select exam cetntre. DHA exams are not available in Canada, France , Greece, Ireland and South Africa.
+9) After 4 or 5 working days DHA will send you message to your account to book exam date.Then go to [promatric site address](https://www.prometric.com/en-us/clients/dha/Pages/landing.aspx) go there and select your exam date and exam center, you must have eligibility ID for selection of exam date and center. You can write exam from your own country. Check the video below to see how to select exam cetntre. DHA exams are not available in Canada, France , Greece, Ireland and South Africa. First go to below link,
+[Link to prometric](https://www.prometric.com/en-us/clients/dha/Pages/landing.aspx)
 
 <iframe src="https://drive.google.com/file/d/0B5FOj4rgVhf1R01IbVhFbWxUVnM/preview" width="100%" height="480"></iframe>
 
@@ -134,7 +135,7 @@ C. Original Passport
 
 <iframe src="https://drive.google.com/file/d/0B5FOj4rgVhf1aG9MSnZxUk1TTEE/preview" width="100%" height="480"></iframe>
 
-Very important noe: **Below are Old videos for reference Not all informations are correct**
+Very important note: **Below are Old videos for reference Not all informations are correct**
 
 
 <iframe src="https://drive.google.com/file/d/0B5FOj4rgVhf1TjF5dnhCeWE0VVU/preview" width="100%" height="480"></iframe>
