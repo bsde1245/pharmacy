@@ -5,6 +5,40 @@ permalink: /pages/jobs
 ---
 
 
+
+
+
+
+
+
+<hr>
+
+Working as ASI (Pharmacist) in Border Security Force
+
+Location : New Delhi
+
+Who can apply : B.Pharm
+
+Number of Vacancy : 21
+
+Last Date : 18th December 2017
+
+Visit – [click here](epaper.tribuneindia.com/c/23811682) 
+
+ <hr>
+
+Working as Pharmacist in National Aluminium Company Limited(NALCO)
+
+Location : Angul
+
+Who can apply : B.Pharm
+
+Number of Vacancy : 01
+
+Last Date : 15th January 2018
+
+Visit – [click hete](http://www.nalcoindia.com/Advt_S&amp;P_04_2017%20PWD.pdf)
+
  <hr>
 
 WORKING AS PHARMACIST IN DISTRICT HEALTH & FAMILY WELFARE SOCIETY
