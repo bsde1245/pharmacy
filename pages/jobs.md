@@ -4,6 +4,22 @@ title: Jobs
 permalink: /pages/jobs
 ---
 
+
+ <hr>
+
+WORKING AS PHARMACIST IN DISTRICT HEALTH & FAMILY WELFARE SOCIETY
+
+Location: Panipat
+
+Who can apply: B.Pharm
+
+Number of Vacancy: 01
+
+Last Date: 12th  December 2017
+
+Visit – [Click Here](http://www.nrhmharyana.gov.in/Writereaddata/userfiles/file/pdfs/NHM%20Vacancy%20detail%2025_11_17.pdf)
+ 
+<hr>
 <p>Working as Associate-Quality Operations in Novartis</p>
 
 <p>Location: Hyderabad</p>
