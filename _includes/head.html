@@ -19,5 +19,7 @@
 <meta property="og:type" content="video.other" />
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 1000 }}" />
- 
+   {% if jekyll.environment == 'production' %}
+  {% include google-analytics.html %}
+  {% endif %}
 </head>
